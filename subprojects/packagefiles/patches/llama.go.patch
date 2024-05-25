@@ -1,0 +1,14 @@
+diff --git a/llama.go b/llama.go
+index c1ebc2c..d2e82aa 100644
+--- a/llama.go
++++ b/llama.go
+@@ -1,7 +1,7 @@
+ package llama
+ 
+-// #cgo CXXFLAGS: -I${SRCDIR}/llama.cpp/common -I${SRCDIR}/llama.cpp
+-// #cgo LDFLAGS: -L${SRCDIR}/ -lbinding -lm -lstdc++
++// #cgo CXXFLAGS: -I${SRCDIR}/../llama.cpp/common -I${SRCDIR}/../llama.cpp -I${SRCDIR}/llama.cpp 
++// #cgo LDFLAGS: -L${SRCDIR}/ -lembdinput -lllama -lm -lstdc++
+ // #cgo darwin LDFLAGS: -framework Accelerate
+ // #cgo darwin CXXFLAGS: -std=c++11
+ // #include "binding.h"

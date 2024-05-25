@@ -1,0 +1,9 @@
+.cache/
+build/
+venv/
+llama.cpp/
+go-llama.cpp/
+models/
+*.log
+gollm
+*.a

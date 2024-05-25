@@ -1,0 +1,7 @@
+[wrap-git]
+url =https://github.com/ggerganov/llama.cpp.git 
+revision = ac43576124a75c2de6e333ac31a3444ff9eb9458
+depth = 1
+diff_files = patches/1902-cuda.patch
+patch_directory=llama.cpp
+
