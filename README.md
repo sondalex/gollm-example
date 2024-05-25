@@ -1,5 +1,8 @@
 # LLM in Go - An Example
 
+![Go version](https://img.shields.io/badge/Go-1.21-blue)
+
+
 Uses [go-llama.cpp](https://pkg.go.dev/github.com/go-skynet/go-llama.cpp)
 
 ## Installation
